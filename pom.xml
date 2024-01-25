@@ -6,7 +6,7 @@
 
     <groupId>Phoenix</groupId>
     <artifactId>Launchpad</artifactId>
-    <version>0.0.2</version>
+    <version>0.2</version>
     <packaging>jar</packaging>
 
     <name>Launchpads</name>

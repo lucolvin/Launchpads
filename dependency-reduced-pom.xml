@@ -4,7 +4,7 @@
   <groupId>Phoenix</groupId>
   <artifactId>Launchpad</artifactId>
   <name>Launchpads</name>
-  <version>0.0.2</version>
+  <version>0.2</version>
   <description>Configurable Launchpads</description>
   <build>
     <defaultGoal>clean package</defaultGoal>

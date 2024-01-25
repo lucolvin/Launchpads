@@ -31,7 +31,7 @@ public class Launchpads extends JavaPlugin implements Listener, CommandExecutor 
         distance = getConfig().getDouble("distance");
         enabledWorlds = getConfig().getStringList("enabledWorlds");
         Bukkit.getLogger().info("---------------------------");
-        Bukkit.getLogger().info("         Launchpads v0.0.2    ");
+        Bukkit.getLogger().info("         Launchpads v0.2    ");
         Bukkit.getLogger().info("---------------------------");
         // Metrics metrics = new Metrics(this);
         getServer().getPluginManager().registerEvents(this, this);
@@ -42,7 +42,7 @@ public class Launchpads extends JavaPlugin implements Listener, CommandExecutor 
     public boolean onCommand(CommandSender sender, Command cmd, String commandLabel, String[] args) {
         if (cmd.getName().equalsIgnoreCase("Launchpads")) {
             sender.sendMessage(ChatColor.AQUA.toString() + ChatColor.BOLD.toString() + "Launchpads");
-            sender.sendMessage(ChatColor.AQUA.toString() + "Version" + ChatColor.WHITE + ": " + ChatColor.GRAY + "v0.0.2");
+            sender.sendMessage(ChatColor.AQUA.toString() + "Version" + ChatColor.WHITE + ": " + ChatColor.GRAY + "v0.2");
             sender.sendMessage(ChatColor.AQUA.toString() + "Developer" + ChatColor.WHITE + ": " + ChatColor.GRAY + "PhoenixL3ader");
             return true;
         }
@@ -75,7 +75,7 @@ public class Launchpads extends JavaPlugin implements Listener, CommandExecutor 
     @Override
     public void onDisable() {
         Bukkit.getLogger().info("---------------------------");
-        Bukkit.getLogger().info("         Launchpads v0.0.2     ");
+        Bukkit.getLogger().info("         Launchpads v0.2     ");
         Bukkit.getLogger().info("---------------------------");
         mat = null;
         height = null;
