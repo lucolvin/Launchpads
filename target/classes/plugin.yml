@@ -1,0 +1,15 @@
+name: Launchpads
+version: 0.0.2
+main: me.Phoenix.Launchpads
+authors: [Phoenix]
+description: slime block jump pads
+website: https://www.lukecolvin.me
+commands:
+  Launchpads:
+    description: Launchpads command
+    aliases: [lps, lpad, paddy]
+  Launchpads-reload:
+    description: Launchpads reload command
+    permission: lps.reload
+    permission-message: You do not have access to lps.reload
+    aliases: [lpreload, lpr]

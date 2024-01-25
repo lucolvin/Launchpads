@@ -1,0 +1,13 @@
+# Launchpads Configuration file
+# Launchpads v0.0.1
+
+# Block name. Can be lowercase.
+material: slime_block
+
+#Self explanatory but height and distance player moves on interact
+height: 1.5
+distance: 2
+
+#Worlds that the jump pads are enabled in
+enabledWorlds:
+  - world
