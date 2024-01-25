@@ -10,7 +10,7 @@ Launchpads is a Bukkit plugin for Minecraft that allows players to create launch
 
 - Launch players into the air when they step on the specified material block.
 - Configurable launch height and distance.
-- Support for multiple worlds.
+- Support for multiple worlds. *NOT IMPLEMENTED*
 
 ## Installation
 
@@ -25,7 +25,7 @@ The plugin comes with a configuration file (`config.yml`) where you can customiz
 - `material`: The material that triggers the launchpad effect.
 - `height`: The height at which players will be launched.
 - `distance`: The horizontal distance of the launch.
-- `enabledWorlds`: A list of worlds where the launchpad effect is enabled.
+- `enabledWorlds`: A list of worlds where the launchpad effect is enabled. *NOT IMPLEMENTED*
 
 To reload the configuration in-game, use the command `/launchpads-reload` (requires the `lps.reload` permission).
 
