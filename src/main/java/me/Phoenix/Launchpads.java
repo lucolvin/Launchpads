@@ -43,7 +43,7 @@ public class Launchpads extends JavaPlugin implements Listener, CommandExecutor 
         if (cmd.getName().equalsIgnoreCase("Launchpads")) {
             sender.sendMessage(ChatColor.AQUA.toString() + ChatColor.BOLD.toString() + "Launchpads");
             sender.sendMessage(ChatColor.AQUA.toString() + "Version" + ChatColor.WHITE + ": " + ChatColor.GRAY + "v0.0.2");
-            sender.sendMessage(ChatColor.AQUA.toString() + "Developer" + ChatColor.WHITE + ": " + ChatColor.GRAY + "Phoenix");
+            sender.sendMessage(ChatColor.AQUA.toString() + "Developer" + ChatColor.WHITE + ": " + ChatColor.GRAY + "PhoenixL3ader");
             return true;
         }
         if (cmd.getName().equalsIgnoreCase("Launchpads-reload")) {
