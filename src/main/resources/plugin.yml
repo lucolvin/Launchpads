@@ -2,12 +2,12 @@ name: Launchpads
 version: ${project.version}
 main: me.Phoenix.Launchpads
 authors: [Phoenix]
-description: slime block jump pads
+description: block Launchpads
 website: https://www.lukecolvin.me
 commands:
   Launchpads:
     description: Launchpads command
-    aliases: [lps, lpad, paddy]
+    aliases: [lps]
   Launchpads-reload:
     description: Launchpads reload command
     permission: lps.reload
